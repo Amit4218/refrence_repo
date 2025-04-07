@@ -4,7 +4,7 @@ function App() {
   const [amount, setAmount] = useState(500);
 
   const API_URL = "http://localhost:8080";
-  const RAZORPAY_KEY_ID = "rzp_test_UTrO295ehEpqLb"; // Replace with your actual key
+  const RAZORPAY_KEY_ID = "RAZORPAY_KEY_ID"; // Replace with your actual key
 
   const handleRazorpayPayment = async () => {
     try {

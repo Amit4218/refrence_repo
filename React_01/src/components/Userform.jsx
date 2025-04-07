@@ -22,10 +22,10 @@ function Userform() {
 
     try {
       const res = await emailjs.send(
-        "service_yc16aof", // Replace with actual Service ID
-        "template_16s6r78", // Replace with actual Template ID
+        "", // Replace with actual Service ID
+        "", // Replace with actual Template ID
         templateParams,
-        "TtMr2AajnIkmAef4a" // Replace with actual Public Key
+        "" // Replace with actual Public Key
       );
 
       console.log("Email sent:", res);

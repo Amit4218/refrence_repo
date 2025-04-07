@@ -5,7 +5,7 @@ function GoogleAuth() {
     // Initialize Google Sign-In
     window.google.accounts.id.initialize({
       client_id:
-        "739178866783-qsnt4ijci9t9t96gpr21ofur00an7257.apps.googleusercontent.com", // Replace with your actual client ID
+        "cliend_id", // Replace with your actual client ID
       callback: handleCredentialResponse,
     });
 
